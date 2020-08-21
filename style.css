@@ -476,7 +476,7 @@ a{
 @media all and (max-width: 360px) {
 
 	.body{
-		widows: 100%;
+		width: 100%;
 	}
 
 	.container{
