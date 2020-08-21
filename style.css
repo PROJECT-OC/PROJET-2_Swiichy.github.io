@@ -25,6 +25,7 @@ header{
 img{
 	width: 162px;
 	height: 162px;
+	border: black 2px solid;
 	border-radius: 50%;
 	margin-top: 3%;
 }
@@ -90,6 +91,10 @@ aside{
 .content_apropos{
 	margin: 8% 8%;
 	text-align: justify;
+}
+
+.liens-contact {
+	color: black;
 }
 
 
@@ -468,13 +473,13 @@ a{
 	}
 }
 
-@media all and (max-width: 360px)
-{
+@media all and (max-width: 360px) {
+
 	.body{
 		widows: 100%;
 	}
-	.container
-	{
+
+	.container{
 		margin: auto;
 		width: 99%;
 		border-left: solid 2px #80D8FF;
@@ -618,5 +623,5 @@ a{
 	.fa-book{
 		color: #263238;
 	}
-	
+}
 }
